@@ -22,7 +22,7 @@ $ export ANDROID_HOME=/Users/code_joker/Library/Android/sdk
 ```
 
 ## Downloading gobind and gomobile 
-gobind is a tool that generates language bindings that make it possible to call Go functions from Java and Objective-C. It is called internally by gomobile which can help us build cross-platform applications. We need this two to build our mobile app library.
+Gobind is a tool that generates language bindings that make it possible to call Go functions from Java and Objective-C. It is called internally by gomobile which can help us build cross-platform applications. We need this two to build our mobile app library.
 
 Optionally, one can develop an entire mobile application using build command of gomobile. But we wont be doing that. We will, however, develop a library that can be used by mobile applications. And to build this, we will use bind command of gomobile.
 
@@ -37,3 +37,19 @@ And export the bin as part of the $PATH and init gomobile
 $ export PATH=$PATH:'/Users/code_joker/go/bin'
 $ gomobile init
 ```
+
+## The sample App
+Lets create the go project structure for our sample app. Let's sc directory which contains our Go package not.expert and finally our package test
+```
+$ mkdir -p $GOPATH/src
+$ mkdir -p $GOPATH/src/not.expert
+$ mkdir -p $GOPATH/src/not.expert/test
+```
+
+Create the test.go file under test package
+```
+$ touch $GOPATH/src/not.expert/helloworld/test.go
+```
+
+Put this as contents of the test.go
+
