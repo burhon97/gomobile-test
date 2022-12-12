@@ -80,7 +80,7 @@ Lets create native ios app in Xcode
 
 Open Xcode and create a new Xcode app
 
-[Create a new Xcode project]([assets/Screenshot 2022-12-12 at 14.10.01.png](https://github.com/burhon97/gomobile-test/blob/master/assets/Screenshot%202022-12-12%20at%2014.10.01.png))
+![Create a new Xcode project](https://miro.medium.com/max/720/1*6H5euen0mZ7MQYQ_QteElw.webp)
 
 Click **Next** button 
 
@@ -93,6 +93,8 @@ Click **Next**, your project is created.
 
 ### Importing a Gomobile framework
 Now we are going to import our **test.xcframework** so that we can interact with it in Swift. Open Finder, and navigate to the frameworks folder. Then drag the **test.xcframework** file into Xcode at the bottom of the Project navigator. A dialog will open to confirm the action, be sure to check Copy items if needed. And you can follow the [link](https://denbeke.be/blog/programming/go-mobile-example-running-caddy-ios/#:~:text=Building%20an%20iOS%20app%20with%20the%20framework)
+
+And run you Xcode project
 
 
 
