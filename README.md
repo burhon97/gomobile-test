@@ -1,5 +1,5 @@
 
-## Running gomobile project
+## Creating gomobile project
 
 Creating new go mod:
 ```
