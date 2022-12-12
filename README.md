@@ -88,3 +88,12 @@ Then:
 + Product name: **testgo**
 + organization identifier: **not.expert**
 + Interface: **Storyboard**
+
+Click **Next**, your project is created.
+
+### Importing a Gomobile framework
+Now we are going to import our **test.xcframework** so that we can interact with it in Swift. Open Finder, and navigate to the frameworks folder. Then drag the **test.xcframework** file into Xcode at the bottom of the Project navigator. A dialog will open to confirm the action, be sure to check Copy items if needed. And you can follow the [link](https://denbeke.be/blog/programming/go-mobile-example-running-caddy-ios/#:~:text=Building%20an%20iOS%20app%20with%20the%20framework)
+
+
+
+
