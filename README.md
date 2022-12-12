@@ -23,7 +23,9 @@ $ export ANDROID_HOME=/Users/code_joker/Library/Android/sdk
 
 ## Downloading gobind and gomobile 
 gobind is a tool that generates language bindings that make it possible to call Go functions from Java and Objective-C. It is called internally by gomobile which can help us build cross-platform applications. We need this two to build our mobile app library.
+
 Optionally, one can develop an entire mobile application using build command of gomobile. But we wont be doing that. We will, however, develop a library that can be used by mobile applications. And to build this, we will use bind command of gomobile.
+
 Download gobind and gomobile
 ```
 $ go install golang.org/x/mobile/cmd/gomobile@latest
