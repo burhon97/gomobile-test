@@ -54,6 +54,7 @@ $ touch $GOPATH/src/not.expert/helloworld/test.go
 Put this as contents of the test.go
 ```
 package test
+
 import (
 "fmt"
 )
