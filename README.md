@@ -56,8 +56,21 @@ Put this as contents of the test.go
 package 'test'
 import (
 "fmt"
-'func Greet' ('name' string) string {
+func Greet (name string) string {
 message := fmt.Sprintf("Hello World, &s", name) 
 return message
 }
+```
+
+## Build the library
+Using gomobile, we can then build the libraries respective to the traget platform, in our case ios and android.
+
+Build framework for ios
+```
+$ gomobile bind -target=ios -o $GOPATH/build/test.xcframework -v $GOPATH/src/not.expert/test
+```
+
+And build aar for android
+```
+gomobile bind -target=android -o $GOPATH/build/test.aar -v $GOPATH/src/not.expert/test
 ```
