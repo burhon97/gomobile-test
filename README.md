@@ -52,4 +52,12 @@ $ touch $GOPATH/src/not.expert/helloworld/test.go
 ```
 
 Put this as contents of the test.go
-
+```
+package helloworld
+import (
+"fmt"
+func Greet (name string) string {
+message := fmt.Sprintf("Hello World, &s", name) 
+return message
+}
+```
