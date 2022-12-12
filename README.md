@@ -52,8 +52,8 @@ $ touch $GOPATH/src/not.expert/helloworld/test.go
 ```
 
 Put this as contents of the test.go
-```
-package helloworld
+```ruby
+package 'test'
 import (
 "fmt"
 func Greet (name string) string {
