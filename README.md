@@ -80,7 +80,7 @@ Lets create native ios app in Xcode
 
 Open Xcode and create a new Xcode app
 
-![Create a new Xcode project](./assets/Screenshot 2022-12-12 at 14.10.01.png)
+![Create a new Xcode project]([./assets/Screenshot 2022-12-12 at 14.10.01.png](https://github.com/burhon97/gomobile-test/blob/master/assets/Screenshot%202022-12-12%20at%2014.10.01.png))
 
 Click **Next** button 
 
