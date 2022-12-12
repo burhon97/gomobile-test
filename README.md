@@ -56,7 +56,7 @@ Put this as contents of the test.go
 package 'test'
 import (
 "fmt"
-func Greet (name string) string {
+'func Greet' ('name' string) string {
 message := fmt.Sprintf("Hello World, &s", name) 
 return message
 }
