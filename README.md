@@ -1,4 +1,3 @@
-# gomobile-test
 
 ## Running gomobile project
 
