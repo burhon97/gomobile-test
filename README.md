@@ -81,3 +81,9 @@ Lets create native ios app in Xcode
 Open Xcode and create a new Xcode app
 
 ![Create a new Xcode project](https://miro.medium.com/max/720/1*6H5euen0mZ7MQYQ_QteElw.webp)
+
+Click Next button 
+
+Then: 
++ Product name: 'testgo'
++ organization identifier: 'not.expert'
