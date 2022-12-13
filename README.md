@@ -48,7 +48,7 @@ $ mkdir -p $GOPATH/src/not.expert/test
 
 Create the test.go file under test package
 ```
-$ touch $GOPATH/src/not.expert/helloworld/test.go
+$ touch $GOPATH/src/not.expert/test/test.go
 ```
 
 Put this as contents of the test.go
@@ -96,6 +96,11 @@ Click **Next**, your project is created.
 
 ### Importing a Gomobile framework
 Now we are going to import our **test.xcframework** so that we can interact with it in Swift. Open Finder, and navigate to the frameworks folder. Then drag the **test.xcframework** file into Xcode at the bottom of the Project navigator. A dialog will open to confirm the action, be sure to check Copy items if needed. And you can follow the [link](https://denbeke.be/blog/programming/go-mobile-example-running-caddy-ios/#:~:text=Building%20an%20iOS%20app%20with%20the%20framework)
+
+And compile your code for ios:
+```
+$ gomobile build -target=ios -v $GOPATH/src/not.expert/test
+```
 
 And run you Xcode project
 
