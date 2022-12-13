@@ -102,7 +102,7 @@ And compile your code for ios:
 $ gomobile build -target=ios -v $GOPATH/src/not.expert/test
 ```
 
-And run you Xcode project
+And run your Xcode project
 
 
 
