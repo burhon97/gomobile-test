@@ -70,7 +70,7 @@ Using gomobile, we can then build the libraries respective to the traget platfor
 
 Build framework for ios
 ```
-$ gomobile bind -target=ios -o $GOPATH/build/test.xcframework -v $GOPATH/src/not.expert/test
+$ gomobile bind -target=ios -tags nowatchdog -o $GOPATH/build/test.xcframework -v $GOPATH/src/not.expert/test
 ```
 
 And build aar for android
@@ -99,7 +99,7 @@ Now we are going to import our **test.xcframework** so that we can interact with
 
 And compile your code for ios:
 ```
-$ gomobile build -target=ios -v $GOPATH/src/not.expert/test
+$ gomobile build -target=ios -tags nowatchdog -v $GOPATH/src/not.expert/test
 ```
 
 And run your Xcode project
