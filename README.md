@@ -8,7 +8,7 @@ $ export PATH=$PATH:'/Users/code_joker/go/bin'
 $ gomobile init
 ```
 
-Creating new go mod:
+### Creating new go mod:
 ```
 $ go mod init test
 ```
