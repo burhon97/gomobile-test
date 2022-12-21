@@ -123,6 +123,11 @@ And choose **Empty activity**, click **Next**
 And set your project name **Name: test**, click **Finish**.
 Your native android app is created.
 
+And compile your code for android:
+```
+$ gomobile build -v $GOPATH/src/not.expert/test
+```
+
 ## Import our go project to Android Studio Project
 Let's import our go project which compile(.aar & .jar) to Android Studio Project
 
