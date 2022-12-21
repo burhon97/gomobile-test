@@ -84,6 +84,7 @@ And build aar for android
 ```
 $ gomobile bind -target=android -o $GOPATH/build/test.aar -v $GOPATH/src/not.expert/test
 ```
+-----------------------------------------------------------------------------
 
 ## Create app in Xcode(ios)
 Lets create native ios app in Xcode
