@@ -112,6 +112,7 @@ $ gomobile build -target=ios -tags nowatchdog -v $GOPATH/src/not.expert/test
 And run your Xcode project
 
 ----------------------------------------------------------------------------------
+__________________________________________________________________________________
 
 # Create app in Android Studio(android)
 Lets create native android app in Android Studio
