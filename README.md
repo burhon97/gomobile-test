@@ -113,4 +113,44 @@ And run your Xcode project
 
 
 
+# Create app in Android Studio(android)
+Lets create native android app in Android Studio
+
+Open Android Studio and create **New project**
+And choose **Empty activity**, click **Next**
+And set your project name **Name: test**, click **Finish**.
+Your native android app is created.
+
+## Import our go project to Android Studio Project
+Let's import our go project which compile(.aar & .jar) to Android Studio Project
+
++ Copy your go project test.aar and test-sources.jar
++ Paste to **test/app/libs** your native android app which create 
++ Add **implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])** to test/app/build.gradle in dependencies: {}
++ And Synchronize and rebuild the project
+
+## And inport your go project into MainActivity
+```
+package not.expert.test;
+
+import androidx.appcompat.app.AppCompatActivity;
+import test.Test;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        Test.greeting("android");
+    }
+}
+```
+
+And Run your android project
+
+
+
 
