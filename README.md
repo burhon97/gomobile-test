@@ -80,9 +80,20 @@ Build framework for ios
 $ gomobile bind -target=ios -tags nowatchdog -o $GOPATH/build/test.xcframework -v $GOPATH/src/not.expert/test
 ```
 
+And compile your code for ios:
+```
+$ gomobile build -target=ios -tags nowatchdog -v $GOPATH/src/not.expert/test
+```
+-----------------------------------------------------------------------------
+
 And build aar for android
 ```
 $ gomobile bind -target=android -o $GOPATH/build/test.aar -v $GOPATH/src/not.expert/test
+```
+
+And compile your code for android:
+```
+$ gomobile build -v $GOPATH/src/not.expert/test
 ```
 -----------------------------------------------------------------------------
 
@@ -105,10 +116,7 @@ Click **Next**, your project is created.
 ### Importing a Gomobile framework
 Now we are going to import our **test.xcframework** so that we can interact with it in Swift. Open Finder, and navigate to the frameworks folder. Then drag the **test.xcframework** file into Xcode at the bottom of the Project navigator. A dialog will open to confirm the action, be sure to check **Copy items if needed**. And you can follow the [link](https://denbeke.be/blog/programming/go-mobile-example-running-caddy-ios/#:~:text=Building%20an%20iOS%20app%20with%20the%20framework)
 
-And compile your code for ios:
-```
-$ gomobile build -target=ios -tags nowatchdog -v $GOPATH/src/not.expert/test
-```
+
 
 And run your Xcode project
 
@@ -123,10 +131,6 @@ And choose **Empty activity**, click **Next**
 And set your project name **Name: test**, click **Finish**.
 Your native android app is created.
 
-And compile your code for android:
-```
-$ gomobile build -v $GOPATH/src/not.expert/test
-```
 
 ## Import our go project to Android Studio Project
 Let's import our go project which compile(.aar & .jar) to Android Studio Project
