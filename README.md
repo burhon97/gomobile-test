@@ -2,6 +2,7 @@
 # Creating gomobile project
 
 ### Downloading gomobile and init
+## 
 ```
 $ go install golang.org/x/mobile/cmd/gomobile@latest
 $ export PATH=$PATH:'/Users/code_joker/go/bin'
